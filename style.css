@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    margin-left: 10px;
+    height: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 400px;
+    margin-right: 10pxs;
+    text-decoration: underline;
+}
+
+.landing{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background: url(images/img-mission-background.webp);
+    width: 1200px;
+    height: 700px; 
+}
+
+.landing-text{
+    background-color: black;
+    width: 100%;
+    padding: 20px ;
+}
+
+.tea-area-1,
+.tea-area-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tea-box{
+    margin-top: 20px;
+}
+
+.tea-box img{
+    height: 200px;
+    width: 300px;
+}
+
+.tea-box p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.TOTM{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* LOCATION */
+
+.section-location{
+    display: flex;
+    flex-direction: column;
+    background: url(images/img-locations-background.webp);
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;  
+}
+
+.section-location h2{
+    margin-bottom: 15px;
+}
+
+.location{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.location>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+
+/* FOOTER  */
+
+footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.copyright{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
